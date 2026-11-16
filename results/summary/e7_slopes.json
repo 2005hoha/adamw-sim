@@ -1,0 +1,169 @@
+{
+  "note": "E1 uses weight_decay=0; Adam/Adam-L2/AdamW coincide. E7 compares the Adam family against SGD, not AdamW against Adam-L2.",
+  "kappas": [
+    1,
+    10,
+    1000,
+    10000
+  ],
+  "results": {
+    "kappa_1": {
+      "adamw": {
+        "slope": -12.488925994694346,
+        "r2": 0.6243483756068406,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1\\adamw\\lr_0.001\\seed_0"
+      },
+      "adam_l2": {
+        "slope": -12.488925994694346,
+        "r2": 0.6243483756068406,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1\\adam_l2\\lr_0.001\\seed_0"
+      },
+      "adam": {
+        "slope": -12.488925994694346,
+        "r2": 0.6243483756068406,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1\\adam\\lr_0.001\\seed_0"
+      },
+      "sgd": {
+        "slope": null,
+        "reason": "insufficient valid points",
+        "log_dir": "results/raw/e1_quadratic\\kappa_1\\sgd\\lr_0.1\\seed_0"
+      },
+      "adam_family": {
+        "slope": -12.488925994694346,
+        "r2": 0.6243483756068406,
+        "n_points": 25,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1\\adamw\\lr_0.001\\seed_0",
+        "note": "wd=0: Adam, Adam-L2 and AdamW coincide"
+      }
+    },
+    "kappa_10": {
+      "adamw": {
+        "slope": -10.96136594601756,
+        "r2": 0.6566482167664721,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10\\adamw\\lr_0.001\\seed_0"
+      },
+      "adam_l2": {
+        "slope": -10.96136594601756,
+        "r2": 0.6566482167664721,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10\\adam_l2\\lr_0.001\\seed_0"
+      },
+      "adam": {
+        "slope": -10.96136594601756,
+        "r2": 0.6566482167664721,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10\\adam\\lr_0.001\\seed_0"
+      },
+      "sgd": {
+        "slope": null,
+        "reason": "insufficient valid points",
+        "log_dir": "results/raw/e1_quadratic\\kappa_10\\sgd\\lr_0.03\\seed_0"
+      },
+      "adam_family": {
+        "slope": -10.96136594601756,
+        "r2": 0.6566482167664721,
+        "n_points": 25,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10\\adamw\\lr_0.001\\seed_0",
+        "note": "wd=0: Adam, Adam-L2 and AdamW coincide"
+      }
+    },
+    "kappa_1000": {
+      "adamw": {
+        "slope": -6.428817590493767,
+        "r2": 0.8541965080356898,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1000\\adamw\\lr_0.001\\seed_0"
+      },
+      "adam_l2": {
+        "slope": -6.428817590493767,
+        "r2": 0.8541965080356898,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1000\\adam_l2\\lr_0.001\\seed_0"
+      },
+      "adam": {
+        "slope": -6.428817590493767,
+        "r2": 0.8541965080356898,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1000\\adam\\lr_0.001\\seed_0"
+      },
+      "sgd": {
+        "slope": 0.2767991394195367,
+        "r2": 0.030658051869200342,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1000\\sgd\\lr_0.003\\seed_0"
+      },
+      "adam_family": {
+        "slope": -6.428817590493767,
+        "r2": 0.8541965080356898,
+        "n_points": 25,
+        "log_dir": "results/raw/e1_quadratic\\kappa_1000\\adamw\\lr_0.001\\seed_0",
+        "note": "wd=0: Adam, Adam-L2 and AdamW coincide"
+      }
+    },
+    "kappa_10000": {
+      "adamw": {
+        "slope": -0.08141682567696498,
+        "r2": 0.001762045923748512,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10000\\adamw\\lr_0.003\\seed_0"
+      },
+      "adam_l2": {
+        "slope": -0.08141682567696498,
+        "r2": 0.001762045923748512,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10000\\adam_l2\\lr_0.003\\seed_0"
+      },
+      "adam": {
+        "slope": -0.08141682567696498,
+        "r2": 0.001762045923748512,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10000\\adam\\lr_0.003\\seed_0"
+      },
+      "sgd": {
+        "slope": -1.3258229300287632,
+        "r2": 0.33905283028786226,
+        "n_points": 25,
+        "fit_start_step": 2600,
+        "fit_end_step": 5000,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10000\\sgd\\lr_0.0003\\seed_0"
+      },
+      "adam_family": {
+        "slope": -0.08141682567696498,
+        "r2": 0.001762045923748512,
+        "n_points": 25,
+        "log_dir": "results/raw/e1_quadratic\\kappa_10000\\adamw\\lr_0.003\\seed_0",
+        "note": "wd=0: Adam, Adam-L2 and AdamW coincide"
+      }
+    }
+  }
+}

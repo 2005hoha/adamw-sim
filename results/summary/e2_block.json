@@ -1,0 +1,30 @@
+{
+  "heterogeneous": {
+    "adam": {
+      "best_lr": 0.001,
+      "steps_to_tol": 5000,
+      "final_loss": 0.00011586137406993657,
+      "log_dir": "results/raw/e2_block\\heterogeneous\\adam\\lr_0.001\\seed_0"
+    },
+    "sgd": {
+      "best_lr": 0.0003,
+      "steps_to_tol": 5000,
+      "final_loss": 5.872820452168526e-09,
+      "log_dir": "results/raw/e2_block\\heterogeneous\\sgd\\lr_0.0003\\seed_0"
+    }
+  },
+  "uniform": {
+    "adam": {
+      "best_lr": 0.001,
+      "steps_to_tol": 5000,
+      "final_loss": 7.607179577462375e-05,
+      "log_dir": "results/raw/e2_block\\uniform\\adam\\lr_0.001\\seed_0"
+    },
+    "sgd": {
+      "best_lr": 0.003,
+      "steps_to_tol": 2400,
+      "final_loss": 4.568962395923304e-12,
+      "log_dir": "results/raw/e2_block\\uniform\\sgd\\lr_0.003\\seed_0"
+    }
+  }
+}
